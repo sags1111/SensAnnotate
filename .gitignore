@@ -1,0 +1,23 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# AI model weights
+*.pt
+*.pth
+*.onnx
+
+# Large video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Large generated images
+test/*_annotated.png
+test/*_blurred.png
+
+# Temporary files
+*.log
+.ipynb_checkpoints/

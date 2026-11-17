@@ -1,0 +1,80 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- Model weights (download separately, see README) ----
+*.pt
+*.pth
+*.onnx
+weights/
+checkpoints/
+
+# ---- Streamlit runtime / cache ----
+.streamlit/
+*_cache/
+.cache/
+
+# ---- Data (never commit real footage or exports) ----
+data/
+datasets/
+uploads/
+outputs/
+exports/
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+!docs/**/*.png
+!docs/**/*.jpg
+*.json
+!config*.json
+
+# ---- Secrets / environment ----
+.env
+*.env
+secrets.toml
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ---- Logs ----
+*.log
+
+
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Large video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Temporary files
+*.log
+.ipynb_checkpoints/
